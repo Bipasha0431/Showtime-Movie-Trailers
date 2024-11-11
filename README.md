@@ -1,5 +1,5 @@
 # Showtime
-Showtime is a comprehensive full-stack web application that offers an engaging platform for exploring movie trailers. With a sleek and responsive interface, Showtime allows users to discover, search, and watch trailers.
+Showtime is a comprehensive full-stack web application that offers an engaging platform for exploring movie trailers. With a sleek and responsive interface, Showtime allows users to discover, search, and watch movie trailers.
 
 ## Key Features:
 
@@ -7,7 +7,7 @@ Showtime is a comprehensive full-stack web application that offers an engaging p
 - **Dynamic Movie Listing:** Fetches and displays an extensive list of movies and series from the TMDB.
 - **Search Capability:** Users can quickly search for specific movies using a keyword-based search.
 - **Trailer Playback:** Users can watch the trailer video for the selected movie or series, providing an engaging preview experience.
-- 
+  
 ## Technology Stack:
 
 - **Frontend:** ReactJs
