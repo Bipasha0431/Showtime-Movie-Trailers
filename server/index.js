@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 const corsOption = {
-  origin: "http://localhost:3000",
+  origin: "https://showtime-movie-trailers.onrender.com",
   credentials: true,
 };
 

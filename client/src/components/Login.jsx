@@ -20,7 +20,7 @@ const Login = () => {
     const dispatch = useDispatch();
     const submitHandler = async (e) => {
         e.preventDefault();
-        console.log('User Payload:', user);
+
         if (isLogin) {
             try {
                 const res = await axios.post(`${API_END_POINT}/signin`, user, {
@@ -29,7 +29,7 @@ const Login = () => {
                     },
                     withCredentials: true // for cookies in browser as cors
                 });
-                console.log(res);
+
                 if (res.data.success) {
                     toast.success(res.data.message);
                 }
